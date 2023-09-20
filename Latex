@@ -1,0 +1,87 @@
+\documentclass[12pt, notitlepage]{article}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{enumerate}
+\usepackage[left]{eurosym}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage{titlesec}
+
+\titleformat{\part}{\centering\normalfont\Large\bfseries}{\partname\hspace{5pt}\thepart\hspace{5pt}}{5pt}{--\ }
+
+
+\begin{document}
+
+
+\title{Microeconomics \\ Problem Set \#1}
+\author{Group number \underline{\hspace{3cm}}}
+\date{{Month}, {date}, 2020}
+\maketitle 
+
+\noindent
+Please insert Name, Surname and Bocconi ID for each member of the group:
+\begin{center}
+Group member 1\\ 
+Group member 2\\ 
+Group member 3\\
+Group member 4
+\end{center}
+
+\section*{Problem 1}
+
+\begin{enumerate}
+	\item Write your answer here.
+	
+	$$ \begin{cases}
+	MRS = \frac{p_1}{p_2}\\
+	p_1 x_1 + p_2 x_2 = I 
+	\end{cases}$$
+	
+	\item Write your answer here.
+	
+	
+
+%if you put your picture/graph in the figure environment, LateX call this Figure #, with a number. 
+%If you don't want numbered figures, just add a * (\begin*{figure})
+
+\begin{figure}
+	%adding \centering the figure will be centered
+\centering
+	
+	%with \capiton you can put a title to the figure. 
+	%with \label you can give the figure a short name, to recall the figure in the text
+\caption{Title of the Figure}
+\label{namefig}
+	
+	%this command will include the graph. In this case I am using a png file, but it is ok a pdf! 
+	%with scale you can decide the dimension. 
+	
+\includegraphics[scale=0.35]{Samuelson_quote}
+\end{figure}
+
+% to cite you figure in the text, use \ref{label}
+\noindent
+As you can see in Figure \ref{namefig}, \dots 
+
+\item 
+
+$$ E=mc$$
+
+\end{enumerate}
+
+
+\section*{Problem 2}
+
+\begin{enumerate}
+	\item Write your answer here. 
+	
+	\item  ...
+	
+	\item ...
+\end{enumerate} 
+
+\end{document}
